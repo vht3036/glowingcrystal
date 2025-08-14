@@ -8,6 +8,7 @@ BulbasaurEggSpeciesMoves:
 	dp BULBASAUR, PLAIN_FORM
 	db CHARM
 	db PETAL_DANCE
+	db ANCIENTPOWER
 	db LIGHT_SCREEN
 	db SAFEGUARD
 	db POWER_WHIP
