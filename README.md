@@ -1,3 +1,10 @@
+# GLOWINGCRYSTAL TO-DO
+
+0.1.0 → revamp movesets and boss fights, change Wide Lens
+0.1.1 → create a new WILD_CHARGE_EFFECT effect for Wild Charge stuff and make Prankster affect Dark types lol
+0.2 → add Friend Power (Pikachu exclusive ability that doubles defense and SpDef) into the game
+0.3 → make Night Shade hit Normal types
+
 # Pokémon Polished Crystal
 
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
