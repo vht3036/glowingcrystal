@@ -80,58 +80,57 @@ EvosAttacks::
 	evos_attacks Bulbasaur
 	evo_data EVOLVE_LEVEL, 16, IVYSAUR
 	learnset 1, TACKLE
-	learnset 3, GROWL
+	learnset 4, GROWL
 	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 10, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 19, RAZOR_LEAF
-	learnset 21, TAKE_DOWN ; Sweet Scent → Take Down
+	learnset 16, MEGA_DRAIN
+	learnset 19, ANCIENTPOWER
+	learnset 22, RAZOR_LEAF
 	learnset 25, GROWTH
-	learnset 27, DOUBLE_EDGE
-	learnset 31, ANCIENTPOWER ; Worry Seed → event move
-	learnset 33, HEALINGLIGHT ; Synthesis → similar move
-	learnset 37, SEED_BOMB
-	learnset 43, SLUDGE_BOMB ; TM move
+	learnset 28, GIGA_DRAIN
+	learnset 31, SLUDGE_BOMB
+	learnset 34, HEALINGLIGHT ; Synthesis → similar move
+	learnset 37, DOUBLE_EDGE
+	learnset 40, SOLAR_BEAM
 
 	evos_attacks Ivysaur
 	evo_data EVOLVE_LEVEL, 32, VENUSAUR
 	learnset 1, TACKLE
-	learnset 3, GROWL
+	learnset 4, GROWL
 	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 10, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 20, RAZOR_LEAF
-	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
+	learnset 16, MEGA_DRAIN
+	learnset 20, ANCIENTPOWER
+	learnset 24, RAZOR_LEAF
 	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
-	learnset 36, ANCIENTPOWER ; Worry Seed → event move
-	learnset 39, HEALINGLIGHT ; Synthesis → similar move
-	learnset 44, SEED_BOMB
-	learnset 50, SLUDGE_BOMB ; TM move
+	learnset 32, GIGA_DRAIN
+	learnset 36, SLUDGE_BOMB
+	learnset 40, HEALINGLIGHT ; Synthesis → similar move
+	learnset 44, DOUBLE_EDGE
+	learnset 48, SOLAR_BEAM
 
 	evos_attacks Venusaur
 	learnset 1, PETAL_DANCE ; evolution move
 	learnset 1, OUTRAGE ; HGSS tutor move
 	learnset 1, TACKLE
-	learnset 3, GROWL
+	learnset 4, GROWL
 	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 10, VINE_WHIP
 	learnset 13, POISONPOWDER
 	learnset 13, SLEEP_POWDER
-	learnset 15, MUD_SLAP ; Take Down → GSC TM move
-	learnset 20, RAZOR_LEAF
-	learnset 23, TAKE_DOWN ; Sweet Scent → Take Down
+	learnset 16, MEGA_DRAIN
+	learnset 20, ANCIENTPOWER
+	learnset 24, RAZOR_LEAF
 	learnset 28, GROWTH
-	learnset 31, DOUBLE_EDGE
-	learnset 39, ANCIENTPOWER ; Worry Seed → event move
-	learnset 45, HEALINGLIGHT ; Synthesis → similar move
-	learnset 50, SEED_BOMB
-	learnset 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
-	learnset 60, SOLAR_BEAM
+	learnset 32, GIGA_DRAIN
+	learnset 40, SLUDGE_BOMB
+	learnset 48, HEALINGLIGHT ; Synthesis → similar move
+	learnset 56, DOUBLE_EDGE
+	learnset 64, SOLAR_BEAM
 
 	evos_attacks Charmander
 	evo_data EVOLVE_LEVEL, 16, CHARMELEON
