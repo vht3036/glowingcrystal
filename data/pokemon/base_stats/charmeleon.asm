@@ -6,8 +6,12 @@
 	db 142 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
-
+	
+if DEF(FAITHFUL)
 	abilities_for CHARMELEON, BLAZE, FLAME_BODY, SOLAR_POWER
+else
+	abilities_for CHARMELEON, BLAZE, FLAME_BODY, TOUGH_CLAWS
+endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
 
