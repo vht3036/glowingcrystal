@@ -1,5 +1,10 @@
+if DEF(FAITHFUL)
 	db  79,  83, 100,  78,  85, 105 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
+else
+	db  79,  83, 105,  78,  85, 110 ; 540 BST
+	;   hp  atk  def  spe  sat  sdf
+endc
 
 if DEF(FAITHFUL)
 	db WATER, WATER ; type
@@ -9,9 +14,9 @@ endc
 	db 45 ; catch rate
 	db 210 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for BLASTOISE, TORRENT, RAIN_DISH, MEGA_LAUNCHER
+	abilities_for BLASTOISE, TORRENT, MEGA_LAUNCHER, RAIN_DISH 
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
 
