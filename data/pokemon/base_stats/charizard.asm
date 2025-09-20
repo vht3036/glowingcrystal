@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db  78,  84,  78, 100, 109,  85 ; 534 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db  78,  94,  78, 100,  99,  85 ; 534 BST
+	db  78,  89,  78, 100, 110,  85 ; 540 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 
@@ -14,12 +14,12 @@ endc
 	db 45 ; catch rate
 	db 209 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, DROUGHT
+	abilities_for CHARIZARD, BLAZE, LEVITATE, SOLAR_POWER
 else
-	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, TOUGH_CLAWS
+	abilities_for CHARIZARD, BLAZE, LEVITATE, TOUGH_CLAWS
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
