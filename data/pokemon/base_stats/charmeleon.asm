@@ -5,9 +5,9 @@
 	db 45 ; catch rate
 	db 142 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
-	dn GENDER_F12_5, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CHARMELEON, BLAZE, SOLAR_POWER, FLAME_BODY
+	abilities_for CHARMELEON, BLAZE, FLAME_BODY, SOLAR_POWER
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
 
