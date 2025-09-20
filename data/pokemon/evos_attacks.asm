@@ -260,23 +260,24 @@ EvosAttacks::
 	learnset 1, DEFENSE_CURL ; Harden → similar move
 
 	evos_attacks Butterfree
-	learnset 1, TACKLE ; Caterpie move
-	learnset 1, STRING_SHOT ; Caterpie move
-	learnset 1, GUST
-	learnset 11, CONFUSION
-	learnset 13, POISONPOWDER
+	learnset 1, TACKLE
+	learnset 1, STRING_SHOT
+	learnset 1, BUG_BITE
+	learnset 1, GUST ; evolution move
+	learnset 5, SUPERSONIC
+	learnset 10, CONFUSION
+	learnset 12, POISONPOWDER
 	learnset 15, STUN_SPORE
-	learnset 17, SLEEP_POWDER ; Psybeam → Sleep Powder
-	learnset 19, PSYBEAM ; Silver Wind → Psybeam
-	learnset 23, SUPERSONIC
+	learnset 17, SLEEP_POWDER
+	learnset 20, PSYBEAM
+	learnset 22, HYPNOSIS
 	learnset 25, SAFEGUARD
-	learnset 29, HYPNOSIS ; Whirlwind → new move
-	learnset 31, BUG_BUZZ
-	learnset 35, REFLECT ; Rage Powder → RBY TM move
-	learnset 37, AGILITY ; Captivate → new move
-	learnset 41, HEALINGLIGHT ; Tailwind → new move
-	learnset 43, AIR_SLASH
-	learnset 47, PSYCHIC_M ; Quiver Dance → TM move
+	learnset 27, AIR_SLASH
+	learnset 30, PSYCHIC_M
+	learnset 32, BUG_BUZZ
+	learnset 35, HEALINGLIGHT
+	learnset 37, HURRICANE
+	learnset 40, CALM_MIND
 
 	evos_attacks Weedle
 	evo_data EVOLVE_LEVEL, 7, KAKUNA
@@ -286,26 +287,29 @@ EvosAttacks::
 
 	evos_attacks Kakuna
 	evo_data EVOLVE_LEVEL, 10, BEEDRILL
-	learnset 1, POISON_STING ; Weedle move
-	learnset 1, STRING_SHOT ; Weedle move
+	learnset 1, POISON_STING
+	learnset 1, STRING_SHOT
 	learnset 1, DEFENSE_CURL ; Harden → similar move
 
 	evos_attacks Beedrill
-	learnset 1, POISON_STING ; Weedle move
-	learnset 1, STRING_SHOT ; Weedle move
-	learnset 1, FURY_STRIKES ; Fury Attack → similar move
-	learnset 1, U_TURN ; evolution move
-	learnset 14, RAGE
-	learnset 17, PURSUIT
-	learnset 20, FOCUS_ENERGY
-	learnset 23, VENOSHOCK
-	learnset 26, FEINT_ATTACK ; Assurance → similar move
-	learnset 29, TOXIC_SPIKES
-	learnset 32, PIN_MISSILE
-	learnset 35, POISON_JAB
-	learnset 38, AGILITY
-	learnset 41, SWORDS_DANCE ; Endeavor → TM move
-	learnset 44, OUTRAGE ; Fell Stinger → LGPE move
+	learnset 1, POISON_STING
+	learnset 1, STRING_SHOT
+	learnset 1, BUG_BITE
+	learnset 1, VENOSHOCK ; evolution move
+	learnset 5, AGILITY
+	learnset 10, FURY_STRIKES ; Fury Attack → similar move
+	learnset 12, RAGE
+	learnset 15, PURSUIT
+	learnset 17, FOCUS_ENERGY
+	learnset 20, SLUDGE_BOMB
+	learnset 22, PIN_MISSILE
+	learnset 25, FEINT_ATTACK
+	learnset 27, TOXIC_SPIKES
+	learnset 30, POISON_JAB
+	learnset 32, LEECH_LIFE
+	learnset 35, SWORDS_DANCE
+	learnset 37, OUTRAGE
+	learnset 40, GUNK_SHOT
 
 	evos_attacks Pidgey
 	evo_data EVOLVE_LEVEL, 18, PIDGEOTTO
