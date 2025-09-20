@@ -257,7 +257,7 @@ endc
 	move AEROBLAST,       EFFECT_NORMAL_HIT,        100, FLYING,     95,  5,   0, SPECIAL
 	move SEED_BOMB,       EFFECT_NORMAL_HIT,         80, GRASS,     100, 15,   0, PHYSICAL
 	move REVERSAL,        EFFECT_REVERSAL,            1, FIGHTING,  100, 15,   0, PHYSICAL
-	move ASTONISH,        EFFECT_FLINCH_HIT,         30, GHOST,     100, 15,  30, PHYSICAL
+	move SHADOW_SNEAK,    EFFECT_PRIORITY_HIT,       40, GHOST,     100, 30,   0, PHYSICAL
 	move ICE_SHARD,       EFFECT_PRIORITY_HIT,       40, ICE,       100, 30,   0, PHYSICAL
 	move PROTECT,         EFFECT_PROTECT,             0, NORMAL,     -1, 10,   0, STATUS
 	move MACH_PUNCH,      EFFECT_PRIORITY_HIT,       40, FIGHTING,  100, 30,   0, PHYSICAL
