@@ -1,4 +1,8 @@
+if DEF(FAITHFUL)
 	db  44,  48,  65,  43,  50,  64 ; 314 BST
+	;   hp  atk  def  spe  sat  sdf
+else
+	db  44,  48,  65,  43,  50,  65 ; 315 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db WATER, WATER ; type
