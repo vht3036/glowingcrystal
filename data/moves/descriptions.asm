@@ -354,7 +354,6 @@ IronHeadDescription:
 ZenHeadbuttDescription:
 ExtrasensoryDescription:
 DarkPulseDescription:
-AstonishDescription:
 IcicleCrashDescription:
 	text "An attack that may"
 	next "cause flinching."
@@ -837,6 +836,11 @@ QuickAttackDescription:
 
 AquaJetDescription:
 	text "A speedy lunge."
+	next "Always goes first."
+	done
+
+AstonishDescription:
+	text "A sneaky attack."
 	next "Always goes first."
 	done
 
