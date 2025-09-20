@@ -148,21 +148,39 @@ EvosAttacks::
 	learnset 46, CRUNCH
 	learnset 52, FLARE_BLITZ ; Sw/Sh move
 
+	evos_attacks Charmander
+	evo_data EVOLVE_LEVEL, 16, CHARMELEON
+	learnset 1, SCRATCH
+	learnset 4, GROWL
+	learnset 7, EMBER
+	learnset 10, SMOKESCREEN
+	learnset 13, METAL_CLAW
+	learnset 16, FLAME_CHARGE
+	learnset 19, SCARY_FACE
+	learnset 22, DRAGON_RAGE
+	learnset 25, SLASH
+	learnset 28, FLAMETHROWER
+	learnset 31, FIRE_SPIN
+	learnset 34, OUTRAGE
+	learnset 37, CRUNCH
+	learnset 40, FLARE_BLITZ ; Sw/Sh move
+
 	evos_attacks Charmeleon
 	evo_data EVOLVE_LEVEL, 36, CHARIZARD
 	learnset 1, SCRATCH
-	learnset 1, GROWL
+	learnset 4, GROWL
 	learnset 7, EMBER
 	learnset 10, SMOKESCREEN
-	learnset 17, METAL_CLAW ; Dragon Rage → TM move
-	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 39, SLASH
-	learnset 43, FLAMETHROWER
-	learnset 50, FIRE_SPIN
-	learnset 54, CRUNCH
-	learnset 61, FLARE_BLITZ ; Sw/Sh move
+	learnset 13, METAL_CLAW
+	learnset 16, FLAME_CHARGE
+	learnset 21, SCARY_FACE
+	learnset 26, DRAGON_RAGE
+	learnset 31, SLASH
+	learnset 36, FLAMETHROWER
+	learnset 41, FIRE_SPIN
+	learnset 46, OUTRAGE
+	learnset 51, CRUNCH
+	learnset 56, FLARE_BLITZ ; Sw/Sh move
 
 	evos_attacks Charizard
 	learnset 1, WING_ATTACK ; evolution move
@@ -173,19 +191,20 @@ EvosAttacks::
 	learnset 1, AIR_SLASH
 	learnset 1, OUTRAGE ; HGSS tutor move
 	learnset 1, SCRATCH
-	learnset 1, GROWL
+	learnset 4, GROWL
 	learnset 7, EMBER
 	learnset 10, SMOKESCREEN
-	learnset 17, METAL_CLAW ; Dragon Rage → TM move
-	learnset 21, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 28, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 32, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 41, SLASH
-	learnset 47, FLAMETHROWER
-	learnset 56, FIRE_SPIN
-	learnset 62, CRUNCH
-	learnset 71, FLARE_BLITZ
-	learnset 77, HURRICANE ; Sw/Sh move
+	learnset 13, METAL_CLAW
+	learnset 16, FLAME_CHARGE
+	learnset 21, SCARY_FACE
+	learnset 26, DRAGON_RAGE
+	learnset 31, SLASH
+	learnset 36, FLAMETHROWER
+	learnset 43, FIRE_SPIN
+	learnset 50, OUTRAGE
+	learnset 57, CRUNCH
+	learnset 64, FLARE_BLITZ ; Sw/Sh move
+	learnset 71, HURRICANE ; Sw/Sh move
 
 	evos_attacks Squirtle
 	evo_data EVOLVE_LEVEL, 16, WARTORTLE
@@ -193,14 +212,14 @@ EvosAttacks::
 	learnset 4, LEER ; Tail Whip → similar move
 	learnset 7, WATER_GUN
 	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
+	learnset 13, BITE
+	learnset 16, BUBBLE_BEAM
 	learnset 19, RAPID_SPIN
 	learnset 22, PROTECT
-	learnset 25, WATER_PULSE
-	learnset 28, AQUA_TAIL
-	learnset 31, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 34, MIRROR_COAT ; Iron Defense → egg move
+	learnset 25, AQUA_TAIL
+	learnset 28, WATER_PULSE
+	learnset 31, BARRIER
+	learnset 34, IRON_HEAD
 	learnset 37, RAIN_DANCE
 	learnset 40, HYDRO_PUMP
 	learnset 43, SHELL_SMASH ; Sw/Sw move
@@ -211,17 +230,17 @@ EvosAttacks::
 	learnset 4, LEER ; Tail Whip → similar move
 	learnset 7, WATER_GUN
 	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
-	learnset 20, RAPID_SPIN
-	learnset 24, PROTECT
-	learnset 28, WATER_PULSE
-	learnset 32, AQUA_TAIL
-	learnset 36, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 40, MIRROR_COAT ; Iron Defense → egg move
-	learnset 44, RAIN_DANCE
-	learnset 48, HYDRO_PUMP
-	learnset 52, SHELL_SMASH ; Sw/Sw move
+	learnset 13, BITE
+	learnset 16, BUBBLE_BEAM
+	learnset 21, RAPID_SPIN
+	learnset 26, PROTECT
+	learnset 31, AQUA_TAIL
+	learnset 36, WATER_PULSE
+	learnset 41, BARRIER
+	learnset 46, IRON_HEAD
+	learnset 51, RAIN_DANCE
+	learnset 56, HYDRO_PUMP
+	learnset 61, SHELL_SMASH ; Sw/Sw move
 
 	evos_attacks Blastoise
 	learnset 1, FLASH_CANNON ; evolution move
@@ -232,20 +251,17 @@ EvosAttacks::
 	learnset 4, LEER ; Tail Whip → similar move
 	learnset 7, WATER_GUN
 	learnset 10, DEFENSE_CURL ; Withdraw → similar move
-	learnset 13, AQUA_JET ; Bubble → egg move
-	learnset 16, BITE
-	learnset 20, RAPID_SPIN
-	learnset 24, PROTECT
-	learnset 28, WATER_PULSE
-	learnset 32, AQUA_TAIL
-	learnset 39, CLOSE_COMBAT ; Skull Bash → new move
-	learnset 46, MIRROR_COAT ; Iron Defense → egg move
-	learnset 53, RAIN_DANCE
-	learnset 60, HYDRO_PUMP
-	learnset 67, SHELL_SMASH ; Sw/Sw move
-if !DEF(FAITHFUL)
-	learnset 75, IRON_HEAD ; TM move
-endc
+	learnset 13, BITE
+	learnset 16, BUBBLE_BEAM
+	learnset 21, RAPID_SPIN
+	learnset 26, PROTECT
+	learnset 31, AQUA_TAIL
+	learnset 36, WATER_PULSE
+	learnset 43, BARRIER
+	learnset 50, IRON_HEAD
+	learnset 57, RAIN_DANCE
+	learnset 64, HYDRO_PUMP
+	learnset 71, SHELL_SMASH ; Sw/Sw move
 
 	evos_attacks Caterpie
 	evo_data EVOLVE_LEVEL, 7, METAPOD
