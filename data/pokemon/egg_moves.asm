@@ -80,7 +80,6 @@ RattataAlolanEggSpeciesMoves:
 
 SpearowEggSpeciesMoves:
 	dp SPEAROW, PLAIN_FORM
-	db ASTONISH
 	db FEINT_ATTACK
 	db QUICK_ATTACK
 	db SCARY_FACE
@@ -456,6 +455,7 @@ GrimerPlainEggSpeciesMoves:
 	db LICK
 	db MEAN_LOOK
 	db SCARY_FACE
+	db SHADOW_SNEAK
 	db SHADOW_CLAW
 	db $ff
 
@@ -465,6 +465,7 @@ GrimerAlolanEggSpeciesMoves:
 	db LICK
 	db MEAN_LOOK
 	db SCARY_FACE
+	db SHADOW_SNEAK
 	db PURSUIT
 	db $ff
 
@@ -482,7 +483,7 @@ ShellderEggSpeciesMoves:
 
 GastlyEggSpeciesMoves:
 	dp GASTLY, PLAIN_FORM
-	db ASTONISH
+	db SHADOW_SNEAK
 	db DISABLE
 	db HAZE
 	db PERISH_SONG
@@ -900,6 +901,7 @@ MurkrowEggSpeciesMoves:
 
 MisdreavusEggSpeciesMoves:
 	dp MISDREAVUS, PLAIN_FORM
+	db SHADOW_SNEAK
 	db DESTINY_BOND
 	db NASTY_PLOT
 	db SCREECH
@@ -928,7 +930,6 @@ PinecoEggSpeciesMoves:
 DunsparceEggSpeciesMoves:
 	dp DUNSPARCE, NO_FORM
 	db AGILITY
-	db ASTONISH
 	db BITE
 	db RAGE
 	db ANCIENTPOWER
