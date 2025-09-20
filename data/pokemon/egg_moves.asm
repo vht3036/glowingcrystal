@@ -6,11 +6,15 @@ EggSpeciesMoves::
 
 BulbasaurEggSpeciesMoves:
 	dp BULBASAUR, PLAIN_FORM
+	db ACID
 	db CHARM
 	db PETAL_DANCE
 	db LIGHT_SCREEN
+	db AURA_SPHERE
+	db TAKE_DOWN
 	db SAFEGUARD
 	db POWER_WHIP
+	db NASTY_PLOT
 	db $ff
 
 CharmanderEggSpeciesMoves:
