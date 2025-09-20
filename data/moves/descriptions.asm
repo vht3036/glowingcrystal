@@ -180,7 +180,7 @@ MoveDescriptions::
 	dw AeroblastDescription
 	dw SeedBombDescription
 	dw ReversalDescription
-	dw AstonishDescription
+	dw ShadowSneakDescription
 	dw IceShardDescription
 	dw ProtectDescription
 	dw MachPunchDescription
@@ -839,7 +839,7 @@ AquaJetDescription:
 	next "Always goes first."
 	done
 
-AstonishDescription:
+ShadowSneakDescription:
 	text "A sneaky attack."
 	next "Always goes first."
 	done
