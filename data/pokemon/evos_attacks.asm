@@ -135,22 +135,6 @@ EvosAttacks::
 	evos_attacks Charmander
 	evo_data EVOLVE_LEVEL, 16, CHARMELEON
 	learnset 1, SCRATCH
-	learnset 1, GROWL
-	learnset 7, EMBER
-	learnset 10, SMOKESCREEN
-	learnset 16, METAL_CLAW ; Dragon Rage → TM move
-	learnset 19, DRAGON_RAGE ; Scary Face → Dragon Rage
-	learnset 25, SCARY_FACE ; Fire Fang → Scary Face
-	learnset 28, FLAME_CHARGE ; Flame Burst → TM move
-	learnset 34, SLASH
-	learnset 37, FLAMETHROWER
-	learnset 43, FIRE_SPIN
-	learnset 46, CRUNCH
-	learnset 52, FLARE_BLITZ ; Sw/Sh move
-
-	evos_attacks Charmander
-	evo_data EVOLVE_LEVEL, 16, CHARMELEON
-	learnset 1, SCRATCH
 	learnset 4, GROWL
 	learnset 7, EMBER
 	learnset 10, SMOKESCREEN
