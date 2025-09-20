@@ -179,7 +179,7 @@ MoveNames::
 	li "Aeroblast"
 	li "Seed Bomb"
 	li "Reversal"
-	li "Astonish"
+	li "Shadow Sneak"
 	li "Ice Shard"
 	li "Protect"
 	li "Mach Punch"
