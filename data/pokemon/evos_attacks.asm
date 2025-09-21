@@ -314,52 +314,55 @@ EvosAttacks::
 	evos_attacks Pidgey
 	evo_data EVOLVE_LEVEL, 18, PIDGEOTTO
 	learnset 1, TACKLE
-	learnset 5, GUST ; Sand Attack → Gust
-	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 21, CHARM ; Twister → egg move
-	learnset 25, SWIFT ; Feather Dance → TM move
-	learnset 29, AGILITY
-	learnset 33, WING_ATTACK
-	learnset 37, ROOST
-	learnset 41, DRILL_PECK ; Tailwind → new move
-	learnset 45, STEEL_WING ; Mirror Move → TM move
-	learnset 49, AIR_SLASH
-	learnset 53, HURRICANE
+	learnset 3, MUD_SLAP
+	learnset 6, GUST
+	learnset 9, CHARM
+	learnset 12, QUICK_ATTACK
+	learnset 15, DRAGONBREATH
+	learnset 18, WING_ATTACK
+	learnset 21, AGILITY
+	learnset 24, AIR_SLASH
+	learnset 27, HYPER_VOICE
+	learnset 30, FLY
+	learnset 33, ROOST
+	learnset 36, EXTREMESPEED
+	learnset 39, STEEL_WING
+	learnset 42, HURRICANE
 
 	evos_attacks Pidgeotto
 	evo_data EVOLVE_LEVEL, 36, PIDGEOT
 	learnset 1, TACKLE
-	learnset 5, GUST ; Sand Attack → Gust
-	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
-	learnset 32, AGILITY
-	learnset 37, WING_ATTACK
-	learnset 42, ROOST
-	learnset 47, DRILL_PECK ; Tailwind → new move
-	learnset 52, STEEL_WING ; Mirror Move → TM move
-	learnset 57, AIR_SLASH
-	learnset 62, HURRICANE
+	learnset 3, MUD_SLAP
+	learnset 6, GUST
+	learnset 9, CHARM
+	learnset 12, QUICK_ATTACK
+	learnset 15, DRAGONBREATH
+	learnset 18, WING_ATTACK
+	learnset 22, STEEL_WING
+	learnset 27, AGILITY
+	learnset 31, HYPER_VOICE
+	learnset 36, AIR_SLASH
+	learnset 40, ROOST
+	learnset 45, EXTREMESPEED
+	learnset 49, FLY
+	learnset 54, HURRICANE
 
 	evos_attacks Pidgeot
 	learnset 1, TACKLE
-	learnset 5, MUD_SLAP ; Sand Attack → similar move
-	learnset 9, GUST
-	learnset 13, QUICK_ATTACK
-	learnset 17, RAGE ; Whirlwind → RBY TM move
-	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
-	learnset 32, AGILITY
-	learnset 38, WING_ATTACK
-	learnset 44, ROOST
-	learnset 50, DRILL_PECK ; Tailwind → new move
-	learnset 56, STEEL_WING ; Mirror Move → TM move
-	learnset 62, AIR_SLASH
-	learnset 68, HURRICANE
+	learnset 3, MUD_SLAP
+	learnset 6, GUST
+	learnset 9, CHARM
+	learnset 12, QUICK_ATTACK
+	learnset 15, DRAGONBREATH
+	learnset 18, WING_ATTACK
+	learnset 22, STEEL_WING
+	learnset 27, AGILITY
+	learnset 31, HYPER_VOICE
+	learnset 36, AIR_SLASH
+	learnset 42, ROOST
+	learnset 48, EXTREMESPEED
+	learnset 54, FLY
+	learnset 60, HURRICANE
 
 	evos_attacks RattataPlain
 	evo_data EVOLVE_LEVEL, 20, RATICATE
