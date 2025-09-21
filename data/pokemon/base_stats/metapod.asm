@@ -14,5 +14,5 @@
 	ev_yield 2 Def
 
 	; tm/hm learnset
-	tmhm
+	tmhm DEFENSE_CURL
 	; end
