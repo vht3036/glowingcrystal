@@ -787,9 +787,12 @@ ChinchouEggSpeciesMoves:
 
 PichuEggSpeciesMoves:
 	dp PICHU, PLAIN_FORM
+	db PETAL_DANCE
 	db DISARM_VOICE
 	db DOUBLE_SLAP
+	db SING
 	db ENCORE
+	db SCARY_FACE
 	db REVERSAL
 	db $ff
 
