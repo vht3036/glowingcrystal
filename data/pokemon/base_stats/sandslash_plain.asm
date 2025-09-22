@@ -4,6 +4,7 @@ if DEF(FAITHFUL)
 else
 	db  75, 100, 110,  95,  55,  65 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
+endc
 
 	db GROUND, GROUND ; type
 	db 90 ; catch rate
