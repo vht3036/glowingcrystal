@@ -117,10 +117,12 @@ SandshrewAlolanEggSpeciesMoves:
 NidoranFEggSpeciesMoves:
 	dp NIDORAN_F, PLAIN_FORM
 	db CHARM
+	db POISON_STING
 	db DISABLE
 	db FOCUS_ENERGY
 	db PURSUIT
 	db SUPERSONIC
+	db SWEET_KISS
 	db TAKE_DOWN
 	db $ff
 
@@ -128,8 +130,10 @@ NidoranMEggSpeciesMoves:
 	dp NIDORAN_M, PLAIN_FORM
 	db AMNESIA
 	db CONFUSION
+	db POISON_STING
 	db DISABLE
 	db SUPERSONIC
+	db SWEET_KISS
 	db TAKE_DOWN
 	db CALM_MIND
 	db COUNTER
