@@ -1,4 +1,8 @@
+if DEF(FAITHFUL)
 	db  75, 100, 110,  65,  45,  55 ; 450 BST
+	;   hp  atk  def  spe  sat  sdf
+else
+	db  75, 100, 110,  95,  55,  65 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db GROUND, GROUND ; type
