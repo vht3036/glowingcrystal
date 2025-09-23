@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db 140,  70,  45,  45,  85,  50 ; 435 BST
 	;   hp  atk  def  spe  sat  sdf
 else
-	db 148,  70,  55,  45,  85,  65 ; 468 BST
+	db 140,  85,  55,  45,  85,  60 ; 480 BST
 	;   hp  atk  def  spe  sat  sdf
 endc
 
@@ -19,7 +19,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for WIGGLYTUFF, CUTE_CHARM, COMPETITIVE, FRISK
 else
-	abilities_for WIGGLYTUFF, CUTE_CHARM, COMPETITIVE, SOUNDPROOF
+	abilities_for WIGGLYTUFF, CUTE_CHARM, SHEER_FORCE, FUR_COAT
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
