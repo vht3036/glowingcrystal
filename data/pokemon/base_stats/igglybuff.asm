@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for IGGLYBUFF, CUTE_CHARM, COMPETITIVE, FRISK
 else
-	abilities_for IGGLYBUFF, CUTE_CHARM, COMPETITIVE, SOUNDPROOF
+	abilities_for IGGLYBUFF, CUTE_CHARM, SHEER_FORCE, FRISK
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
