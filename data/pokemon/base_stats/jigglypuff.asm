@@ -1,4 +1,8 @@
+if DEF(FAITHFUL)
 	db 115,  45,  20,  20,  45,  25 ; 270 BST
+	;   hp  atk  def  spe  sat  sdf
+else
+	db 115,  65,  35,  20,  65,  40 ; 330 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db NORMAL, FAIRY ; type
@@ -10,7 +14,7 @@
 if DEF(FAITHFUL)
 	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, FRISK
 else
-	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, SOUNDPROOF
+	abilities_for JIGGLYPUFF, CUTE_CHARM, SHEER_FORCE, FRISK
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
