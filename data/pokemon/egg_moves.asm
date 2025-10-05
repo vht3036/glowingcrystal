@@ -141,6 +141,7 @@ NidoranMEggSpeciesMoves:
 
 VulpixPlainEggSpeciesMoves:
 	dp VULPIX, PLAIN_FORM
+	db HEX
 	db FLAME_CHARGE
 	db DISABLE
 	db FLARE_BLITZ
@@ -154,6 +155,7 @@ VulpixPlainEggSpeciesMoves:
 
 VulpixAlolanEggSpeciesMoves:
 	dp VULPIX, ALOLAN_FORM
+	db HEX
 	db DISABLE
 	db BLIZZARD
 	db HYPNOSIS
@@ -174,11 +176,13 @@ ZubatEggSpeciesMoves:
 	db QUICK_ATTACK
 	db ZEN_HEADBUTT
 	db BRAVE_BIRD
+	db HURRICANE
 	db $ff
 
 OddishEggSpeciesMoves:
 	dp ODDISH, PLAIN_FORM
 	db CHARM
+	db HEX
 	db RAZOR_LEAF
 	db HEALINGLIGHT
 	db SWORDS_DANCE
