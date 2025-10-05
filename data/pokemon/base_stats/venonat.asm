@@ -11,7 +11,11 @@ endc
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
+if DEF(FAITHFUL)
+	abilities_for VENONAT, COMPOUND_EYES, TINTED_LENS, RUN_AWAY
+else
 	abilities_for VENONAT, COMPOUND_EYES, POISON_HEAL, TINTED_LENS
+endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups
 
